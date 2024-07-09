@@ -1,0 +1,39 @@
+# Created: 2024-07-09T10:55:24.205189
+# PINT_version: 1.0.1
+# User: gourliek
+# Host: gourliek-HP-Pavilion-Laptop-15-eg2xxx
+# OS: Linux-6.5.0-41-generic-x86_64-with-glibc2.35
+# Python: 3.9.19 | packaged by conda-forge | (main, Mar 20 2024, 12:50:21) 
+# [GCC 12.3.0]
+# Format: pint
+PSR                            1748-2021E
+EPHEM                               DE421
+CLK                          TT(BIPM2019)
+UNITS                                 TDB
+START              53478.2858714195382639
+FINISH             54187.5873241702319097
+TIMEEPH                              FB90
+T2CMETHOD                        IAU2000B
+DILATEFREQ                              N
+DMDATA                                  N
+NTOA                                   62
+CHI2                    59.57470541409688
+CHI2R                    1.06383402525173
+TRES                 21.18210730903993663
+RAJ                     17:48:52.80034690 1 0.00013524663578313453
+DECJ                   -20:21:29.38334052 1 0.03285268549439220725
+PMRA                                  0.0
+PMDEC                                 0.0
+PX                                    0.0
+POSEPOCH           53750.0000000000000000
+F0                   61.48547655437249946 1 1.8086084389702613266e-11
+F1              -1.1813316926458294353e-15 1 1.4418540398803100605e-18
+PEPOCH             53750.0000000000000000
+CORRECT_TROPOSPHERE                         N
+PLANET_SHAPIRO                          N
+SOLARN0                               0.0
+SWM                                     0
+DM                   224.1137963945656833 1 0.034938980510629602527
+TZRMJD             53801.3860512007484954
+TZRSITE                                 1
+TZRFRQ                           1949.609
