@@ -1,0 +1,964 @@
+system : Linux
+node : gourliek-HP-Pavilion-Laptop-15-eg2xxx
+release : 6.5.0-41-generic
+version : #41~22.04.2-Ubuntu SMP PREEMPT_DYNAMIC Mon Jun  3 11:32:55 UTC 2
+machine : x86_64
+
+enterprise_extensions v2.4.2
+PTMCMCSampler v2.1.2
+enterprise v3.3.2,  Python v3.9.19
+==========================================================================================
+
+Signal Name                              Signal Class                   no. Parameters      
+==========================================================================================
+B1855+09_marginalizing_linear_timing_model TimingModel                    0                   
+
+params:
+__________________________________________________________________________________________
+B1855+09_measurement_noise               MeasurementNoise               0                   
+
+params:
+B1855+09_efac:Constant=1.0                                                                
+__________________________________________________________________________________________
+B1855+09_red_noise                       FourierBasisGP                 2                   
+
+params:
+B1855+09_red_noise_log10_A:Uniform(pmin=-18, pmax=-12)                                    
+B1855+09_red_noise_gamma:Uniform(pmin=0, pmax=7)                                          
+__________________________________________________________________________________________
+B1855+09_gw_hd                           FourierBasisCommonGP           1                   
+
+params:
+log10_A_gw:Uniform(pmin=-18, pmax=-12)                                                    
+gamma_gw:Constant=4.333333333333333                                                       
+__________________________________________________________________________________________
+B1937+21_marginalizing_linear_timing_model TimingModel                    0                   
+
+params:
+__________________________________________________________________________________________
+B1937+21_measurement_noise               MeasurementNoise               0                   
+
+params:
+B1937+21_efac:Constant=1.0                                                                
+__________________________________________________________________________________________
+B1937+21_red_noise                       FourierBasisGP                 2                   
+
+params:
+B1937+21_red_noise_log10_A:Uniform(pmin=-18, pmax=-12)                                    
+B1937+21_red_noise_gamma:Uniform(pmin=0, pmax=7)                                          
+__________________________________________________________________________________________
+B1937+21_gw_hd                           FourierBasisCommonGP           1                   
+
+params:
+log10_A_gw:Uniform(pmin=-18, pmax=-12)                                                    
+gamma_gw:Constant=4.333333333333333                                                       
+__________________________________________________________________________________________
+B1953+29_marginalizing_linear_timing_model TimingModel                    0                   
+
+params:
+__________________________________________________________________________________________
+B1953+29_measurement_noise               MeasurementNoise               0                   
+
+params:
+B1953+29_efac:Constant=1.0                                                                
+__________________________________________________________________________________________
+B1953+29_red_noise                       FourierBasisGP                 2                   
+
+params:
+B1953+29_red_noise_log10_A:Uniform(pmin=-18, pmax=-12)                                    
+B1953+29_red_noise_gamma:Uniform(pmin=0, pmax=7)                                          
+__________________________________________________________________________________________
+B1953+29_gw_hd                           FourierBasisCommonGP           1                   
+
+params:
+log10_A_gw:Uniform(pmin=-18, pmax=-12)                                                    
+gamma_gw:Constant=4.333333333333333                                                       
+__________________________________________________________________________________________
+J0023+0923_marginalizing_linear_timing_model TimingModel                    0                   
+
+params:
+__________________________________________________________________________________________
+J0023+0923_measurement_noise             MeasurementNoise               0                   
+
+params:
+J0023+0923_efac:Constant=1.0                                                              
+__________________________________________________________________________________________
+J0023+0923_red_noise                     FourierBasisGP                 2                   
+
+params:
+J0023+0923_red_noise_log10_A:Uniform(pmin=-18, pmax=-12)                                  
+J0023+0923_red_noise_gamma:Uniform(pmin=0, pmax=7)                                        
+__________________________________________________________________________________________
+J0023+0923_gw_hd                         FourierBasisCommonGP           1                   
+
+params:
+log10_A_gw:Uniform(pmin=-18, pmax=-12)                                                    
+gamma_gw:Constant=4.333333333333333                                                       
+__________________________________________________________________________________________
+J0030+0451_marginalizing_linear_timing_model TimingModel                    0                   
+
+params:
+__________________________________________________________________________________________
+J0030+0451_measurement_noise             MeasurementNoise               0                   
+
+params:
+J0030+0451_efac:Constant=1.0                                                              
+__________________________________________________________________________________________
+J0030+0451_red_noise                     FourierBasisGP                 2                   
+
+params:
+J0030+0451_red_noise_log10_A:Uniform(pmin=-18, pmax=-12)                                  
+J0030+0451_red_noise_gamma:Uniform(pmin=0, pmax=7)                                        
+__________________________________________________________________________________________
+J0030+0451_gw_hd                         FourierBasisCommonGP           1                   
+
+params:
+log10_A_gw:Uniform(pmin=-18, pmax=-12)                                                    
+gamma_gw:Constant=4.333333333333333                                                       
+__________________________________________________________________________________________
+J0340+4130_marginalizing_linear_timing_model TimingModel                    0                   
+
+params:
+__________________________________________________________________________________________
+J0340+4130_measurement_noise             MeasurementNoise               0                   
+
+params:
+J0340+4130_efac:Constant=1.0                                                              
+__________________________________________________________________________________________
+J0340+4130_red_noise                     FourierBasisGP                 2                   
+
+params:
+J0340+4130_red_noise_log10_A:Uniform(pmin=-18, pmax=-12)                                  
+J0340+4130_red_noise_gamma:Uniform(pmin=0, pmax=7)                                        
+__________________________________________________________________________________________
+J0340+4130_gw_hd                         FourierBasisCommonGP           1                   
+
+params:
+log10_A_gw:Uniform(pmin=-18, pmax=-12)                                                    
+gamma_gw:Constant=4.333333333333333                                                       
+__________________________________________________________________________________________
+J0613-0200_marginalizing_linear_timing_model TimingModel                    0                   
+
+params:
+__________________________________________________________________________________________
+J0613-0200_measurement_noise             MeasurementNoise               0                   
+
+params:
+J0613-0200_efac:Constant=1.0                                                              
+__________________________________________________________________________________________
+J0613-0200_red_noise                     FourierBasisGP                 2                   
+
+params:
+J0613-0200_red_noise_log10_A:Uniform(pmin=-18, pmax=-12)                                  
+J0613-0200_red_noise_gamma:Uniform(pmin=0, pmax=7)                                        
+__________________________________________________________________________________________
+J0613-0200_gw_hd                         FourierBasisCommonGP           1                   
+
+params:
+log10_A_gw:Uniform(pmin=-18, pmax=-12)                                                    
+gamma_gw:Constant=4.333333333333333                                                       
+__________________________________________________________________________________________
+J0636+5128_marginalizing_linear_timing_model TimingModel                    0                   
+
+params:
+__________________________________________________________________________________________
+J0636+5128_measurement_noise             MeasurementNoise               0                   
+
+params:
+J0636+5128_efac:Constant=1.0                                                              
+__________________________________________________________________________________________
+J0636+5128_red_noise                     FourierBasisGP                 2                   
+
+params:
+J0636+5128_red_noise_log10_A:Uniform(pmin=-18, pmax=-12)                                  
+J0636+5128_red_noise_gamma:Uniform(pmin=0, pmax=7)                                        
+__________________________________________________________________________________________
+J0636+5128_gw_hd                         FourierBasisCommonGP           1                   
+
+params:
+log10_A_gw:Uniform(pmin=-18, pmax=-12)                                                    
+gamma_gw:Constant=4.333333333333333                                                       
+__________________________________________________________________________________________
+J0645+5158_marginalizing_linear_timing_model TimingModel                    0                   
+
+params:
+__________________________________________________________________________________________
+J0645+5158_measurement_noise             MeasurementNoise               0                   
+
+params:
+J0645+5158_efac:Constant=1.0                                                              
+__________________________________________________________________________________________
+J0645+5158_red_noise                     FourierBasisGP                 2                   
+
+params:
+J0645+5158_red_noise_log10_A:Uniform(pmin=-18, pmax=-12)                                  
+J0645+5158_red_noise_gamma:Uniform(pmin=0, pmax=7)                                        
+__________________________________________________________________________________________
+J0645+5158_gw_hd                         FourierBasisCommonGP           1                   
+
+params:
+log10_A_gw:Uniform(pmin=-18, pmax=-12)                                                    
+gamma_gw:Constant=4.333333333333333                                                       
+__________________________________________________________________________________________
+J0740+6620_marginalizing_linear_timing_model TimingModel                    0                   
+
+params:
+__________________________________________________________________________________________
+J0740+6620_measurement_noise             MeasurementNoise               0                   
+
+params:
+J0740+6620_efac:Constant=1.0                                                              
+__________________________________________________________________________________________
+J0740+6620_red_noise                     FourierBasisGP                 2                   
+
+params:
+J0740+6620_red_noise_log10_A:Uniform(pmin=-18, pmax=-12)                                  
+J0740+6620_red_noise_gamma:Uniform(pmin=0, pmax=7)                                        
+__________________________________________________________________________________________
+J0740+6620_gw_hd                         FourierBasisCommonGP           1                   
+
+params:
+log10_A_gw:Uniform(pmin=-18, pmax=-12)                                                    
+gamma_gw:Constant=4.333333333333333                                                       
+__________________________________________________________________________________________
+J0931-1902_marginalizing_linear_timing_model TimingModel                    0                   
+
+params:
+__________________________________________________________________________________________
+J0931-1902_measurement_noise             MeasurementNoise               0                   
+
+params:
+J0931-1902_efac:Constant=1.0                                                              
+__________________________________________________________________________________________
+J0931-1902_red_noise                     FourierBasisGP                 2                   
+
+params:
+J0931-1902_red_noise_log10_A:Uniform(pmin=-18, pmax=-12)                                  
+J0931-1902_red_noise_gamma:Uniform(pmin=0, pmax=7)                                        
+__________________________________________________________________________________________
+J0931-1902_gw_hd                         FourierBasisCommonGP           1                   
+
+params:
+log10_A_gw:Uniform(pmin=-18, pmax=-12)                                                    
+gamma_gw:Constant=4.333333333333333                                                       
+__________________________________________________________________________________________
+J1012+5307_marginalizing_linear_timing_model TimingModel                    0                   
+
+params:
+__________________________________________________________________________________________
+J1012+5307_measurement_noise             MeasurementNoise               0                   
+
+params:
+J1012+5307_efac:Constant=1.0                                                              
+__________________________________________________________________________________________
+J1012+5307_red_noise                     FourierBasisGP                 2                   
+
+params:
+J1012+5307_red_noise_log10_A:Uniform(pmin=-18, pmax=-12)                                  
+J1012+5307_red_noise_gamma:Uniform(pmin=0, pmax=7)                                        
+__________________________________________________________________________________________
+J1012+5307_gw_hd                         FourierBasisCommonGP           1                   
+
+params:
+log10_A_gw:Uniform(pmin=-18, pmax=-12)                                                    
+gamma_gw:Constant=4.333333333333333                                                       
+__________________________________________________________________________________________
+J1024-0719_marginalizing_linear_timing_model TimingModel                    0                   
+
+params:
+__________________________________________________________________________________________
+J1024-0719_measurement_noise             MeasurementNoise               0                   
+
+params:
+J1024-0719_efac:Constant=1.0                                                              
+__________________________________________________________________________________________
+J1024-0719_red_noise                     FourierBasisGP                 2                   
+
+params:
+J1024-0719_red_noise_log10_A:Uniform(pmin=-18, pmax=-12)                                  
+J1024-0719_red_noise_gamma:Uniform(pmin=0, pmax=7)                                        
+__________________________________________________________________________________________
+J1024-0719_gw_hd                         FourierBasisCommonGP           1                   
+
+params:
+log10_A_gw:Uniform(pmin=-18, pmax=-12)                                                    
+gamma_gw:Constant=4.333333333333333                                                       
+__________________________________________________________________________________________
+J1125+7819_marginalizing_linear_timing_model TimingModel                    0                   
+
+params:
+__________________________________________________________________________________________
+J1125+7819_measurement_noise             MeasurementNoise               0                   
+
+params:
+J1125+7819_efac:Constant=1.0                                                              
+__________________________________________________________________________________________
+J1125+7819_red_noise                     FourierBasisGP                 2                   
+
+params:
+J1125+7819_red_noise_log10_A:Uniform(pmin=-18, pmax=-12)                                  
+J1125+7819_red_noise_gamma:Uniform(pmin=0, pmax=7)                                        
+__________________________________________________________________________________________
+J1125+7819_gw_hd                         FourierBasisCommonGP           1                   
+
+params:
+log10_A_gw:Uniform(pmin=-18, pmax=-12)                                                    
+gamma_gw:Constant=4.333333333333333                                                       
+__________________________________________________________________________________________
+J1453+1902_marginalizing_linear_timing_model TimingModel                    0                   
+
+params:
+__________________________________________________________________________________________
+J1453+1902_measurement_noise             MeasurementNoise               0                   
+
+params:
+J1453+1902_efac:Constant=1.0                                                              
+__________________________________________________________________________________________
+J1453+1902_red_noise                     FourierBasisGP                 2                   
+
+params:
+J1453+1902_red_noise_log10_A:Uniform(pmin=-18, pmax=-12)                                  
+J1453+1902_red_noise_gamma:Uniform(pmin=0, pmax=7)                                        
+__________________________________________________________________________________________
+J1453+1902_gw_hd                         FourierBasisCommonGP           1                   
+
+params:
+log10_A_gw:Uniform(pmin=-18, pmax=-12)                                                    
+gamma_gw:Constant=4.333333333333333                                                       
+__________________________________________________________________________________________
+J1455-3330_marginalizing_linear_timing_model TimingModel                    0                   
+
+params:
+__________________________________________________________________________________________
+J1455-3330_measurement_noise             MeasurementNoise               0                   
+
+params:
+J1455-3330_efac:Constant=1.0                                                              
+__________________________________________________________________________________________
+J1455-3330_red_noise                     FourierBasisGP                 2                   
+
+params:
+J1455-3330_red_noise_log10_A:Uniform(pmin=-18, pmax=-12)                                  
+J1455-3330_red_noise_gamma:Uniform(pmin=0, pmax=7)                                        
+__________________________________________________________________________________________
+J1455-3330_gw_hd                         FourierBasisCommonGP           1                   
+
+params:
+log10_A_gw:Uniform(pmin=-18, pmax=-12)                                                    
+gamma_gw:Constant=4.333333333333333                                                       
+__________________________________________________________________________________________
+J1600-3053_marginalizing_linear_timing_model TimingModel                    0                   
+
+params:
+__________________________________________________________________________________________
+J1600-3053_measurement_noise             MeasurementNoise               0                   
+
+params:
+J1600-3053_efac:Constant=1.0                                                              
+__________________________________________________________________________________________
+J1600-3053_red_noise                     FourierBasisGP                 2                   
+
+params:
+J1600-3053_red_noise_log10_A:Uniform(pmin=-18, pmax=-12)                                  
+J1600-3053_red_noise_gamma:Uniform(pmin=0, pmax=7)                                        
+__________________________________________________________________________________________
+J1600-3053_gw_hd                         FourierBasisCommonGP           1                   
+
+params:
+log10_A_gw:Uniform(pmin=-18, pmax=-12)                                                    
+gamma_gw:Constant=4.333333333333333                                                       
+__________________________________________________________________________________________
+J1614-2230_marginalizing_linear_timing_model TimingModel                    0                   
+
+params:
+__________________________________________________________________________________________
+J1614-2230_measurement_noise             MeasurementNoise               0                   
+
+params:
+J1614-2230_efac:Constant=1.0                                                              
+__________________________________________________________________________________________
+J1614-2230_red_noise                     FourierBasisGP                 2                   
+
+params:
+J1614-2230_red_noise_log10_A:Uniform(pmin=-18, pmax=-12)                                  
+J1614-2230_red_noise_gamma:Uniform(pmin=0, pmax=7)                                        
+__________________________________________________________________________________________
+J1614-2230_gw_hd                         FourierBasisCommonGP           1                   
+
+params:
+log10_A_gw:Uniform(pmin=-18, pmax=-12)                                                    
+gamma_gw:Constant=4.333333333333333                                                       
+__________________________________________________________________________________________
+J1640+2224_marginalizing_linear_timing_model TimingModel                    0                   
+
+params:
+__________________________________________________________________________________________
+J1640+2224_measurement_noise             MeasurementNoise               0                   
+
+params:
+J1640+2224_efac:Constant=1.0                                                              
+__________________________________________________________________________________________
+J1640+2224_red_noise                     FourierBasisGP                 2                   
+
+params:
+J1640+2224_red_noise_log10_A:Uniform(pmin=-18, pmax=-12)                                  
+J1640+2224_red_noise_gamma:Uniform(pmin=0, pmax=7)                                        
+__________________________________________________________________________________________
+J1640+2224_gw_hd                         FourierBasisCommonGP           1                   
+
+params:
+log10_A_gw:Uniform(pmin=-18, pmax=-12)                                                    
+gamma_gw:Constant=4.333333333333333                                                       
+__________________________________________________________________________________________
+J1643-1224_marginalizing_linear_timing_model TimingModel                    0                   
+
+params:
+__________________________________________________________________________________________
+J1643-1224_measurement_noise             MeasurementNoise               0                   
+
+params:
+J1643-1224_efac:Constant=1.0                                                              
+__________________________________________________________________________________________
+J1643-1224_red_noise                     FourierBasisGP                 2                   
+
+params:
+J1643-1224_red_noise_log10_A:Uniform(pmin=-18, pmax=-12)                                  
+J1643-1224_red_noise_gamma:Uniform(pmin=0, pmax=7)                                        
+__________________________________________________________________________________________
+J1643-1224_gw_hd                         FourierBasisCommonGP           1                   
+
+params:
+log10_A_gw:Uniform(pmin=-18, pmax=-12)                                                    
+gamma_gw:Constant=4.333333333333333                                                       
+__________________________________________________________________________________________
+J1713+0747_marginalizing_linear_timing_model TimingModel                    0                   
+
+params:
+__________________________________________________________________________________________
+J1713+0747_measurement_noise             MeasurementNoise               0                   
+
+params:
+J1713+0747_efac:Constant=1.0                                                              
+__________________________________________________________________________________________
+J1713+0747_red_noise                     FourierBasisGP                 2                   
+
+params:
+J1713+0747_red_noise_log10_A:Uniform(pmin=-18, pmax=-12)                                  
+J1713+0747_red_noise_gamma:Uniform(pmin=0, pmax=7)                                        
+__________________________________________________________________________________________
+J1713+0747_gw_hd                         FourierBasisCommonGP           1                   
+
+params:
+log10_A_gw:Uniform(pmin=-18, pmax=-12)                                                    
+gamma_gw:Constant=4.333333333333333                                                       
+__________________________________________________________________________________________
+J1738+0333_marginalizing_linear_timing_model TimingModel                    0                   
+
+params:
+__________________________________________________________________________________________
+J1738+0333_measurement_noise             MeasurementNoise               0                   
+
+params:
+J1738+0333_efac:Constant=1.0                                                              
+__________________________________________________________________________________________
+J1738+0333_red_noise                     FourierBasisGP                 2                   
+
+params:
+J1738+0333_red_noise_log10_A:Uniform(pmin=-18, pmax=-12)                                  
+J1738+0333_red_noise_gamma:Uniform(pmin=0, pmax=7)                                        
+__________________________________________________________________________________________
+J1738+0333_gw_hd                         FourierBasisCommonGP           1                   
+
+params:
+log10_A_gw:Uniform(pmin=-18, pmax=-12)                                                    
+gamma_gw:Constant=4.333333333333333                                                       
+__________________________________________________________________________________________
+J1741+1351_marginalizing_linear_timing_model TimingModel                    0                   
+
+params:
+__________________________________________________________________________________________
+J1741+1351_measurement_noise             MeasurementNoise               0                   
+
+params:
+J1741+1351_efac:Constant=1.0                                                              
+__________________________________________________________________________________________
+J1741+1351_red_noise                     FourierBasisGP                 2                   
+
+params:
+J1741+1351_red_noise_log10_A:Uniform(pmin=-18, pmax=-12)                                  
+J1741+1351_red_noise_gamma:Uniform(pmin=0, pmax=7)                                        
+__________________________________________________________________________________________
+J1741+1351_gw_hd                         FourierBasisCommonGP           1                   
+
+params:
+log10_A_gw:Uniform(pmin=-18, pmax=-12)                                                    
+gamma_gw:Constant=4.333333333333333                                                       
+__________________________________________________________________________________________
+J1744-1134_marginalizing_linear_timing_model TimingModel                    0                   
+
+params:
+__________________________________________________________________________________________
+J1744-1134_measurement_noise             MeasurementNoise               0                   
+
+params:
+J1744-1134_efac:Constant=1.0                                                              
+__________________________________________________________________________________________
+J1744-1134_red_noise                     FourierBasisGP                 2                   
+
+params:
+J1744-1134_red_noise_log10_A:Uniform(pmin=-18, pmax=-12)                                  
+J1744-1134_red_noise_gamma:Uniform(pmin=0, pmax=7)                                        
+__________________________________________________________________________________________
+J1744-1134_gw_hd                         FourierBasisCommonGP           1                   
+
+params:
+log10_A_gw:Uniform(pmin=-18, pmax=-12)                                                    
+gamma_gw:Constant=4.333333333333333                                                       
+__________________________________________________________________________________________
+J1747-4036_marginalizing_linear_timing_model TimingModel                    0                   
+
+params:
+__________________________________________________________________________________________
+J1747-4036_measurement_noise             MeasurementNoise               0                   
+
+params:
+J1747-4036_efac:Constant=1.0                                                              
+__________________________________________________________________________________________
+J1747-4036_red_noise                     FourierBasisGP                 2                   
+
+params:
+J1747-4036_red_noise_log10_A:Uniform(pmin=-18, pmax=-12)                                  
+J1747-4036_red_noise_gamma:Uniform(pmin=0, pmax=7)                                        
+__________________________________________________________________________________________
+J1747-4036_gw_hd                         FourierBasisCommonGP           1                   
+
+params:
+log10_A_gw:Uniform(pmin=-18, pmax=-12)                                                    
+gamma_gw:Constant=4.333333333333333                                                       
+__________________________________________________________________________________________
+J1832-0836_marginalizing_linear_timing_model TimingModel                    0                   
+
+params:
+__________________________________________________________________________________________
+J1832-0836_measurement_noise             MeasurementNoise               0                   
+
+params:
+J1832-0836_efac:Constant=1.0                                                              
+__________________________________________________________________________________________
+J1832-0836_red_noise                     FourierBasisGP                 2                   
+
+params:
+J1832-0836_red_noise_log10_A:Uniform(pmin=-18, pmax=-12)                                  
+J1832-0836_red_noise_gamma:Uniform(pmin=0, pmax=7)                                        
+__________________________________________________________________________________________
+J1832-0836_gw_hd                         FourierBasisCommonGP           1                   
+
+params:
+log10_A_gw:Uniform(pmin=-18, pmax=-12)                                                    
+gamma_gw:Constant=4.333333333333333                                                       
+__________________________________________________________________________________________
+J1853+1303_marginalizing_linear_timing_model TimingModel                    0                   
+
+params:
+__________________________________________________________________________________________
+J1853+1303_measurement_noise             MeasurementNoise               0                   
+
+params:
+J1853+1303_efac:Constant=1.0                                                              
+__________________________________________________________________________________________
+J1853+1303_red_noise                     FourierBasisGP                 2                   
+
+params:
+J1853+1303_red_noise_log10_A:Uniform(pmin=-18, pmax=-12)                                  
+J1853+1303_red_noise_gamma:Uniform(pmin=0, pmax=7)                                        
+__________________________________________________________________________________________
+J1853+1303_gw_hd                         FourierBasisCommonGP           1                   
+
+params:
+log10_A_gw:Uniform(pmin=-18, pmax=-12)                                                    
+gamma_gw:Constant=4.333333333333333                                                       
+__________________________________________________________________________________________
+J1903+0327_marginalizing_linear_timing_model TimingModel                    0                   
+
+params:
+__________________________________________________________________________________________
+J1903+0327_measurement_noise             MeasurementNoise               0                   
+
+params:
+J1903+0327_efac:Constant=1.0                                                              
+__________________________________________________________________________________________
+J1903+0327_red_noise                     FourierBasisGP                 2                   
+
+params:
+J1903+0327_red_noise_log10_A:Uniform(pmin=-18, pmax=-12)                                  
+J1903+0327_red_noise_gamma:Uniform(pmin=0, pmax=7)                                        
+__________________________________________________________________________________________
+J1903+0327_gw_hd                         FourierBasisCommonGP           1                   
+
+params:
+log10_A_gw:Uniform(pmin=-18, pmax=-12)                                                    
+gamma_gw:Constant=4.333333333333333                                                       
+__________________________________________________________________________________________
+J1909-3744_marginalizing_linear_timing_model TimingModel                    0                   
+
+params:
+__________________________________________________________________________________________
+J1909-3744_measurement_noise             MeasurementNoise               0                   
+
+params:
+J1909-3744_efac:Constant=1.0                                                              
+__________________________________________________________________________________________
+J1909-3744_red_noise                     FourierBasisGP                 2                   
+
+params:
+J1909-3744_red_noise_log10_A:Uniform(pmin=-18, pmax=-12)                                  
+J1909-3744_red_noise_gamma:Uniform(pmin=0, pmax=7)                                        
+__________________________________________________________________________________________
+J1909-3744_gw_hd                         FourierBasisCommonGP           1                   
+
+params:
+log10_A_gw:Uniform(pmin=-18, pmax=-12)                                                    
+gamma_gw:Constant=4.333333333333333                                                       
+__________________________________________________________________________________________
+J1910+1256_marginalizing_linear_timing_model TimingModel                    0                   
+
+params:
+__________________________________________________________________________________________
+J1910+1256_measurement_noise             MeasurementNoise               0                   
+
+params:
+J1910+1256_efac:Constant=1.0                                                              
+__________________________________________________________________________________________
+J1910+1256_red_noise                     FourierBasisGP                 2                   
+
+params:
+J1910+1256_red_noise_log10_A:Uniform(pmin=-18, pmax=-12)                                  
+J1910+1256_red_noise_gamma:Uniform(pmin=0, pmax=7)                                        
+__________________________________________________________________________________________
+J1910+1256_gw_hd                         FourierBasisCommonGP           1                   
+
+params:
+log10_A_gw:Uniform(pmin=-18, pmax=-12)                                                    
+gamma_gw:Constant=4.333333333333333                                                       
+__________________________________________________________________________________________
+J1911+1347_marginalizing_linear_timing_model TimingModel                    0                   
+
+params:
+__________________________________________________________________________________________
+J1911+1347_measurement_noise             MeasurementNoise               0                   
+
+params:
+J1911+1347_efac:Constant=1.0                                                              
+__________________________________________________________________________________________
+J1911+1347_red_noise                     FourierBasisGP                 2                   
+
+params:
+J1911+1347_red_noise_log10_A:Uniform(pmin=-18, pmax=-12)                                  
+J1911+1347_red_noise_gamma:Uniform(pmin=0, pmax=7)                                        
+__________________________________________________________________________________________
+J1911+1347_gw_hd                         FourierBasisCommonGP           1                   
+
+params:
+log10_A_gw:Uniform(pmin=-18, pmax=-12)                                                    
+gamma_gw:Constant=4.333333333333333                                                       
+__________________________________________________________________________________________
+J1918-0642_marginalizing_linear_timing_model TimingModel                    0                   
+
+params:
+__________________________________________________________________________________________
+J1918-0642_measurement_noise             MeasurementNoise               0                   
+
+params:
+J1918-0642_efac:Constant=1.0                                                              
+__________________________________________________________________________________________
+J1918-0642_red_noise                     FourierBasisGP                 2                   
+
+params:
+J1918-0642_red_noise_log10_A:Uniform(pmin=-18, pmax=-12)                                  
+J1918-0642_red_noise_gamma:Uniform(pmin=0, pmax=7)                                        
+__________________________________________________________________________________________
+J1918-0642_gw_hd                         FourierBasisCommonGP           1                   
+
+params:
+log10_A_gw:Uniform(pmin=-18, pmax=-12)                                                    
+gamma_gw:Constant=4.333333333333333                                                       
+__________________________________________________________________________________________
+J1923+2515_marginalizing_linear_timing_model TimingModel                    0                   
+
+params:
+__________________________________________________________________________________________
+J1923+2515_measurement_noise             MeasurementNoise               0                   
+
+params:
+J1923+2515_efac:Constant=1.0                                                              
+__________________________________________________________________________________________
+J1923+2515_red_noise                     FourierBasisGP                 2                   
+
+params:
+J1923+2515_red_noise_log10_A:Uniform(pmin=-18, pmax=-12)                                  
+J1923+2515_red_noise_gamma:Uniform(pmin=0, pmax=7)                                        
+__________________________________________________________________________________________
+J1923+2515_gw_hd                         FourierBasisCommonGP           1                   
+
+params:
+log10_A_gw:Uniform(pmin=-18, pmax=-12)                                                    
+gamma_gw:Constant=4.333333333333333                                                       
+__________________________________________________________________________________________
+J1944+0907_marginalizing_linear_timing_model TimingModel                    0                   
+
+params:
+__________________________________________________________________________________________
+J1944+0907_measurement_noise             MeasurementNoise               0                   
+
+params:
+J1944+0907_efac:Constant=1.0                                                              
+__________________________________________________________________________________________
+J1944+0907_red_noise                     FourierBasisGP                 2                   
+
+params:
+J1944+0907_red_noise_log10_A:Uniform(pmin=-18, pmax=-12)                                  
+J1944+0907_red_noise_gamma:Uniform(pmin=0, pmax=7)                                        
+__________________________________________________________________________________________
+J1944+0907_gw_hd                         FourierBasisCommonGP           1                   
+
+params:
+log10_A_gw:Uniform(pmin=-18, pmax=-12)                                                    
+gamma_gw:Constant=4.333333333333333                                                       
+__________________________________________________________________________________________
+J2010-1323_marginalizing_linear_timing_model TimingModel                    0                   
+
+params:
+__________________________________________________________________________________________
+J2010-1323_measurement_noise             MeasurementNoise               0                   
+
+params:
+J2010-1323_efac:Constant=1.0                                                              
+__________________________________________________________________________________________
+J2010-1323_red_noise                     FourierBasisGP                 2                   
+
+params:
+J2010-1323_red_noise_log10_A:Uniform(pmin=-18, pmax=-12)                                  
+J2010-1323_red_noise_gamma:Uniform(pmin=0, pmax=7)                                        
+__________________________________________________________________________________________
+J2010-1323_gw_hd                         FourierBasisCommonGP           1                   
+
+params:
+log10_A_gw:Uniform(pmin=-18, pmax=-12)                                                    
+gamma_gw:Constant=4.333333333333333                                                       
+__________________________________________________________________________________________
+J2017+0603_marginalizing_linear_timing_model TimingModel                    0                   
+
+params:
+__________________________________________________________________________________________
+J2017+0603_measurement_noise             MeasurementNoise               0                   
+
+params:
+J2017+0603_efac:Constant=1.0                                                              
+__________________________________________________________________________________________
+J2017+0603_red_noise                     FourierBasisGP                 2                   
+
+params:
+J2017+0603_red_noise_log10_A:Uniform(pmin=-18, pmax=-12)                                  
+J2017+0603_red_noise_gamma:Uniform(pmin=0, pmax=7)                                        
+__________________________________________________________________________________________
+J2017+0603_gw_hd                         FourierBasisCommonGP           1                   
+
+params:
+log10_A_gw:Uniform(pmin=-18, pmax=-12)                                                    
+gamma_gw:Constant=4.333333333333333                                                       
+__________________________________________________________________________________________
+J2033+1734_marginalizing_linear_timing_model TimingModel                    0                   
+
+params:
+__________________________________________________________________________________________
+J2033+1734_measurement_noise             MeasurementNoise               0                   
+
+params:
+J2033+1734_efac:Constant=1.0                                                              
+__________________________________________________________________________________________
+J2033+1734_red_noise                     FourierBasisGP                 2                   
+
+params:
+J2033+1734_red_noise_log10_A:Uniform(pmin=-18, pmax=-12)                                  
+J2033+1734_red_noise_gamma:Uniform(pmin=0, pmax=7)                                        
+__________________________________________________________________________________________
+J2033+1734_gw_hd                         FourierBasisCommonGP           1                   
+
+params:
+log10_A_gw:Uniform(pmin=-18, pmax=-12)                                                    
+gamma_gw:Constant=4.333333333333333                                                       
+__________________________________________________________________________________________
+J2043+1711_marginalizing_linear_timing_model TimingModel                    0                   
+
+params:
+__________________________________________________________________________________________
+J2043+1711_measurement_noise             MeasurementNoise               0                   
+
+params:
+J2043+1711_efac:Constant=1.0                                                              
+__________________________________________________________________________________________
+J2043+1711_red_noise                     FourierBasisGP                 2                   
+
+params:
+J2043+1711_red_noise_log10_A:Uniform(pmin=-18, pmax=-12)                                  
+J2043+1711_red_noise_gamma:Uniform(pmin=0, pmax=7)                                        
+__________________________________________________________________________________________
+J2043+1711_gw_hd                         FourierBasisCommonGP           1                   
+
+params:
+log10_A_gw:Uniform(pmin=-18, pmax=-12)                                                    
+gamma_gw:Constant=4.333333333333333                                                       
+__________________________________________________________________________________________
+J2145-0750_marginalizing_linear_timing_model TimingModel                    0                   
+
+params:
+__________________________________________________________________________________________
+J2145-0750_measurement_noise             MeasurementNoise               0                   
+
+params:
+J2145-0750_efac:Constant=1.0                                                              
+__________________________________________________________________________________________
+J2145-0750_red_noise                     FourierBasisGP                 2                   
+
+params:
+J2145-0750_red_noise_log10_A:Uniform(pmin=-18, pmax=-12)                                  
+J2145-0750_red_noise_gamma:Uniform(pmin=0, pmax=7)                                        
+__________________________________________________________________________________________
+J2145-0750_gw_hd                         FourierBasisCommonGP           1                   
+
+params:
+log10_A_gw:Uniform(pmin=-18, pmax=-12)                                                    
+gamma_gw:Constant=4.333333333333333                                                       
+__________________________________________________________________________________________
+J2214+3000_marginalizing_linear_timing_model TimingModel                    0                   
+
+params:
+__________________________________________________________________________________________
+J2214+3000_measurement_noise             MeasurementNoise               0                   
+
+params:
+J2214+3000_efac:Constant=1.0                                                              
+__________________________________________________________________________________________
+J2214+3000_red_noise                     FourierBasisGP                 2                   
+
+params:
+J2214+3000_red_noise_log10_A:Uniform(pmin=-18, pmax=-12)                                  
+J2214+3000_red_noise_gamma:Uniform(pmin=0, pmax=7)                                        
+__________________________________________________________________________________________
+J2214+3000_gw_hd                         FourierBasisCommonGP           1                   
+
+params:
+log10_A_gw:Uniform(pmin=-18, pmax=-12)                                                    
+gamma_gw:Constant=4.333333333333333                                                       
+__________________________________________________________________________________________
+J2229+2643_marginalizing_linear_timing_model TimingModel                    0                   
+
+params:
+__________________________________________________________________________________________
+J2229+2643_measurement_noise             MeasurementNoise               0                   
+
+params:
+J2229+2643_efac:Constant=1.0                                                              
+__________________________________________________________________________________________
+J2229+2643_red_noise                     FourierBasisGP                 2                   
+
+params:
+J2229+2643_red_noise_log10_A:Uniform(pmin=-18, pmax=-12)                                  
+J2229+2643_red_noise_gamma:Uniform(pmin=0, pmax=7)                                        
+__________________________________________________________________________________________
+J2229+2643_gw_hd                         FourierBasisCommonGP           1                   
+
+params:
+log10_A_gw:Uniform(pmin=-18, pmax=-12)                                                    
+gamma_gw:Constant=4.333333333333333                                                       
+__________________________________________________________________________________________
+J2234+0611_marginalizing_linear_timing_model TimingModel                    0                   
+
+params:
+__________________________________________________________________________________________
+J2234+0611_measurement_noise             MeasurementNoise               0                   
+
+params:
+J2234+0611_efac:Constant=1.0                                                              
+__________________________________________________________________________________________
+J2234+0611_red_noise                     FourierBasisGP                 2                   
+
+params:
+J2234+0611_red_noise_log10_A:Uniform(pmin=-18, pmax=-12)                                  
+J2234+0611_red_noise_gamma:Uniform(pmin=0, pmax=7)                                        
+__________________________________________________________________________________________
+J2234+0611_gw_hd                         FourierBasisCommonGP           1                   
+
+params:
+log10_A_gw:Uniform(pmin=-18, pmax=-12)                                                    
+gamma_gw:Constant=4.333333333333333                                                       
+__________________________________________________________________________________________
+J2234+0944_marginalizing_linear_timing_model TimingModel                    0                   
+
+params:
+__________________________________________________________________________________________
+J2234+0944_measurement_noise             MeasurementNoise               0                   
+
+params:
+J2234+0944_efac:Constant=1.0                                                              
+__________________________________________________________________________________________
+J2234+0944_red_noise                     FourierBasisGP                 2                   
+
+params:
+J2234+0944_red_noise_log10_A:Uniform(pmin=-18, pmax=-12)                                  
+J2234+0944_red_noise_gamma:Uniform(pmin=0, pmax=7)                                        
+__________________________________________________________________________________________
+J2234+0944_gw_hd                         FourierBasisCommonGP           1                   
+
+params:
+log10_A_gw:Uniform(pmin=-18, pmax=-12)                                                    
+gamma_gw:Constant=4.333333333333333                                                       
+__________________________________________________________________________________________
+J2302+4442_marginalizing_linear_timing_model TimingModel                    0                   
+
+params:
+__________________________________________________________________________________________
+J2302+4442_measurement_noise             MeasurementNoise               0                   
+
+params:
+J2302+4442_efac:Constant=1.0                                                              
+__________________________________________________________________________________________
+J2302+4442_red_noise                     FourierBasisGP                 2                   
+
+params:
+J2302+4442_red_noise_log10_A:Uniform(pmin=-18, pmax=-12)                                  
+J2302+4442_red_noise_gamma:Uniform(pmin=0, pmax=7)                                        
+__________________________________________________________________________________________
+J2302+4442_gw_hd                         FourierBasisCommonGP           1                   
+
+params:
+log10_A_gw:Uniform(pmin=-18, pmax=-12)                                                    
+gamma_gw:Constant=4.333333333333333                                                       
+__________________________________________________________________________________________
+J2317+1439_marginalizing_linear_timing_model TimingModel                    0                   
+
+params:
+__________________________________________________________________________________________
+J2317+1439_measurement_noise             MeasurementNoise               0                   
+
+params:
+J2317+1439_efac:Constant=1.0                                                              
+__________________________________________________________________________________________
+J2317+1439_red_noise                     FourierBasisGP                 2                   
+
+params:
+J2317+1439_red_noise_log10_A:Uniform(pmin=-18, pmax=-12)                                  
+J2317+1439_red_noise_gamma:Uniform(pmin=0, pmax=7)                                        
+__________________________________________________________________________________________
+J2317+1439_gw_hd                         FourierBasisCommonGP           1                   
+
+params:
+log10_A_gw:Uniform(pmin=-18, pmax=-12)                                                    
+gamma_gw:Constant=4.333333333333333                                                       
+__________________________________________________________________________________________
+==========================================================================================
+Total params: 181
+Varying params: 91
+Common params: 45
+Fixed params: 90
+Number of pulsars: 45
