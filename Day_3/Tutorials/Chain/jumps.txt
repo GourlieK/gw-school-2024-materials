@@ -1,0 +1,5 @@
+covarianceJumpProposalAM 0.12
+draw_from_red_prior 0.12
+covarianceJumpProposalSCAM 0.24
+draw_from_prior 0.12
+DEJump  0.4
